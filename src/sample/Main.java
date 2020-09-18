@@ -70,7 +70,7 @@ public class Main extends JFrame {
 
     /*split function*/
     public void splitGivenFile(String fileName, int no_of_Pieces) {
-        /*trys to split file with try block*/
+        /*tries to split file with try block*/
         try {
             /*object to read input file*/
             BufferedInputStream input = new BufferedInputStream(new FileInputStream(new File(fileName)));
